@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs / temporary files
+*.log
+*.tmp
+*.swp
+
+# Model checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Local data
+data/*
+!data/.gitkeep
