@@ -1,0 +1,32 @@
+{
+  "experiment": "D1 option-name robustness",
+  "model": "convaiinnovations/laya",
+  "sample_size": 400,
+  "sampling": "all shared D1 binary examples",
+  "conditions": {
+    "kny": {
+      "description": "aligned no/yes labels",
+      "accuracy": 0.4475
+    },
+    "kswap": {
+      "description": "swapped yes/no labels",
+      "accuracy": 0.5375
+    },
+    "k01": {
+      "description": "0/1 labels",
+      "accuracy": 0.4825
+    }
+  },
+  "semantic_flip_rates": {
+    "kny_to_kswap": {
+      "flips": 372,
+      "total": 400,
+      "rate": 0.93
+    },
+    "kny_to_k01": {
+      "flips": 74,
+      "total": 400,
+      "rate": 0.185
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "experiment": "D1 small-scale evaluation",
+  "model": "convaiinnovations/laya",
+  "records": 20,
+  "decisions": 100,
+  "sampling": "first 20 records from d1_neutral",
+  "accuracy": 0.42,
+  "mean_top_probability": 0.5736,
+  "notes": [
+    "This is a preliminary sanity evaluation, not a full benchmark reproduction.",
+    "The subset was not randomly sampled.",
+    "Mean top probability is reported only as a descriptive statistic, not as a calibration metric."
+  ]
+}
